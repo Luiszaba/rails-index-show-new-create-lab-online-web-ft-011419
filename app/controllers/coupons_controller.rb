@@ -5,7 +5,8 @@ class CouponsController < ApplicationController
   end
   
   def show
-    @coupon.
+    @coupon.find(params[:id])
+  end
   
   def new
   end
@@ -17,6 +18,4 @@ class CouponsController < ApplicationController
     @coupon.save
     redirect_to coupon_path(@coupon)
   end
-end
-  
 end
