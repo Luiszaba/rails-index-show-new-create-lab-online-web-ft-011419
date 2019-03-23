@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 1) do
 
   create_table "coupons", force: :cascade do |t|
-    t.string "coupons_code"
+    t.string "coupon_code"
     t.string "store"
   end
 
