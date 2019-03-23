@@ -4,6 +4,9 @@ class CouponsController < ApplicationController
     @coupon = Coupons.all
   end
   
+  def show
+    @coupon.
+  
   def new
   end
   
